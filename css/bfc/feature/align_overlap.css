@@ -1,0 +1,22 @@
+#box {
+  background-color: aqua;
+}
+
+#left {
+  width: 400px;
+  height: 400px;
+  background-color: bisque;
+
+  /* align to the left (or right) */
+  float: left;
+  opacity: 0.5;
+}
+
+#right {
+  height: 200px;
+  background-color: chartreuse;
+  opacity: 0.5;
+
+  /* bfc exit overlap */
+  overflow: auto;
+}

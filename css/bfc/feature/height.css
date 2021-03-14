@@ -1,0 +1,18 @@
+#box {
+  background-color: aqua;
+
+  /* height in bfc include float */
+  overflow: auto;
+}
+
+#float {
+  background-color: bisque;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#normal {
+  background-color: chartreuse;
+  height: 50px;
+}

@@ -1,0 +1,21 @@
+#top {
+  background-color: aqua;
+  height: 200px;
+  margin: 20px 0px;
+}
+
+#outer {
+  background-color: bisque;
+  height: 200px;
+
+  /* make it work */
+  /* overflow: auto; */
+}
+
+#inner {
+  background-color: chartreuse;
+  height: 100px;
+
+  /* not work */
+  margin: 20px 0px;
+}

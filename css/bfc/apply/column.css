@@ -1,0 +1,20 @@
+#left {
+  float: left;
+  width: 100px;
+  height: 400px;
+  background-color: aqua;
+}
+
+#main {
+  background-color: bisque;
+  height: 100vh;
+
+  overflow: auto;
+}
+
+#right {
+  background-color: chartreuse;
+  float: right;
+  width: 200px;
+  height: 200px;
+}
