@@ -1,0 +1,25 @@
+body,
+#outer,
+#middle,
+#inner {
+  display: grid;
+  place-items: center;
+}
+
+#outer {
+  background-color: aqua;
+  width: 600px;
+  height: 600px;
+}
+
+#middle {
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+}
+
+#inner {
+  background-color: chartreuse;
+  width: 200px;
+  height: 200px;
+}
